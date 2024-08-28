@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+    @apply max-w-md h-screen m-auto bg-white shadow-xl relative;
+}
+
+html {
+    @apply bg-slate-200;
+}
+
